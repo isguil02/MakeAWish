@@ -1,0 +1,200 @@
+html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+body{
+  height: 100%;
+  width: 100%;
+}
+sub{
+font-size:10px;
+}
+sup{
+font-size:10px;
+}
+  a {/*style for the links*/
+    text-decoration: none; /* Remove default underline */
+    color: inherit;
+  }
+
+.dropdown {/*set the line of button*/
+   z-index:10;
+  display: flex;
+  align-items: center;
+  position: right;
+  color: #0057b8;
+  background-color: transparent;/*sets the background color of the dropdown entire line*/
+  height: 50px;
+}
+.dropbtn {/*style of button*/
+  z-index:10;
+  border: none;
+  cursor: pointer;
+  color: #0057b8;
+  padding: 25px;
+}
+.dropdown-content {
+  z-index:10;
+  display: none;
+  position: absolute;
+  margin-top: 201px;
+  background-color: #white;
+  min-width: 160px;
+  box-shadow: 3px 8px 16px 0px rgb(214, 199, 255,0.2);
+}
+.dropdown-content a {/*sets style of the words and orginization of the dropdown options*/
+  z-index:10;
+  color: ##0057b8;
+  padding: 6px 16px;
+  text-decoration: none;
+  display: block;/*makes the dropdown menu items stack like blocks*/
+}
+.dropdown-content a:hover {/*sets style of the words and orginization of the dropdown options*/
+  text-decoration: underline;
+  
+}
+.dropdown:hover .dropdown-content {/*what hapens when you hover over the button*/
+  display: block;
+}
+
+.box1{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+background-color: white;
+  height: 50px;
+  color: #0057b8;
+  font-size: 17px;
+  margin-left: -11px;
+  margin-top: -11px;
+  width: 100%;
+  padding-left: 11px;
+  a:hover {
+    text-decoration : underline; /* Underline on hover */
+  }
+}
+.box2{
+  display: flex;
+  align-items: center;
+background-color: #0057b8;
+  color: white;
+  height: 80px;
+  width: 100%;
+  padding-left: 11px;
+  margin-left: -11px;
+}
+.boxB{
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #0057b8;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 15%;
+}
+.boxRC{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 15%;
+}
+.boxR{
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #FF585D;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 60%;
+  border-radius: 30px;
+}
+.boxB:hover{
+  background-color: #00408a;
+}
+.boxR:hover{
+  height: 80px;
+  width: 100%;
+  border-radius: 0px;
+}
+
+.p1 {
+  z-index:-5;
+  background-color: #DCF0FB;
+  left: -10px;
+  width: 100%;
+  height:600px;
+}
+
+.p2 {
+  background-color: white;
+  width: 110%;
+  height: 600px;
+  border-radius:100%;
+  position: absolute;
+  left:-90px;
+  top: 400px;
+}
+
+.hdr{
+  font-size: empty;
+  line-height: 10px;
+position:absolute;
+  left: 40%;
+  color:#0057B8;
+  text-align: center;
+  top: 250px;
+}
+
+.pageI{
+  z-index: 0;
+  font-size: 26px;
+  line-height: 40px;
+font-weight: normal;
+color: black;
+text-align:left;
+position:absolute;
+    left: -300px;
+  top:300px;
+width: 900px;
+}
+
+.starP1{
+   position: absolute;
+  left:250px; 
+  top:-100px;
+  width:250px;
+  transform: rotate(23deg);
+}
+.starP2{
+  transform: rotate(123deg);
+   position: absolute;
+  left:-630px; 
+  top:0px;
+  width:250px;
+}
+.starP3{
+  transform: rotate(83deg);
+   position: absolute;
+  left:-330px; 
+  top:-100px;
+  width:250px;
+}
+.starP4{
+   position: absolute;
+  left:650px; 
+  top:25px;
+  width:250px;
+  transform: rotate(141deg);
+}
+.blue{
+  color: #0057B8;
+}
+.white{
+  color: white;
+}

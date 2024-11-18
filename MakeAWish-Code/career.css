@@ -1,0 +1,24 @@
+.hdr2{
+  font-size: empty;
+  line-height: 10px;
+position:absolute;
+  left: -500px;
+  width: 1200px;
+  color:#0057B8;
+  text-align: center;
+  top: 00px;
+}
+.roles{
+position:absolute;
+border-radius:30px;
+background-color: #FF585D;
+top: 1000px;
+left:-180px;
+padding:20px;
+color:white;
+width: 600px;
+}
+.scr6{
+position:absolute;
+top: 1200px;
+}
